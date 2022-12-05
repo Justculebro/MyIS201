@@ -1,0 +1,51 @@
+nav {
+  /* background-color: rgb(149, 183, 245); */
+  display: flex;
+}
+
+.myDivTwo {
+  text-decoration: underline;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .leftmenu {
+    top: 5px;
+    left: 50px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    /* padding-top: 20px; */
+    /* background-color: rgb(149, 183, 245); */
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: rgba(5, 5, 4, 0.799);
+}
+
+.myDivOne {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  font-family: fantasy;
+}
+
+.nav-bar {
+  list-style: none;
+}
+
+a {color: maroon;
+    text-decoration: none;
+    }
+
+.nav-bar li {
+  flex-grow: 3;
+  padding: 10px;
+}
+
+.nav-bar li a {
+  color: white;
+}
